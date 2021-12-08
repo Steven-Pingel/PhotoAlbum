@@ -12,6 +12,6 @@ namespace PhotoAlbum.Common
 
         public string Title { get; }
 
-        public IReadOnlyCollection<Photo> Photos {get ; }
+        public IReadOnlyCollection<Photo> Photos { get; }
     }
 }
