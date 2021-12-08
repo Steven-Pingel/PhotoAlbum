@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Console", "PhotoAlbum.Console\PhotoAlbum.Console.csproj", "{9049510B-DC3E-46FA-96F7-B1213541CDEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Common", "PhotoAlbum.Common\PhotoAlbum.Common.csproj", "{89AD3972-9CFC-4F75-983D-8A024E904A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.PlaceholderPhotos.Tests", "PhotoAlbum.PlaceholderPhotos.Tests\PhotoAlbum.PlaceholderPhotos.Tests.csproj", "{83D5CC95-4A46-486C-988D-1F4A8E4860EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.PlaceholderPhotos", "PhotoAlbum.PlaceholderPhotos\PhotoAlbum.PlaceholderPhotos.csproj", "{08D3CA26-702B-4E76-AC7F-0AF7D6BAFCC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{80ADCA52-3710-42B5-95AF-C5BB3638ADE2}"
+ProjectSection(SolutionItems) = preProject
+	Dockerfile = Dockerfile
+EndProjectSection
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9049510B-DC3E-46FA-96F7-B1213541CDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9049510B-DC3E-46FA-96F7-B1213541CDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9049510B-DC3E-46FA-96F7-B1213541CDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9049510B-DC3E-46FA-96F7-B1213541CDEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AD3972-9CFC-4F75-983D-8A024E904A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AD3972-9CFC-4F75-983D-8A024E904A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AD3972-9CFC-4F75-983D-8A024E904A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AD3972-9CFC-4F75-983D-8A024E904A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D5CC95-4A46-486C-988D-1F4A8E4860EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D5CC95-4A46-486C-988D-1F4A8E4860EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D5CC95-4A46-486C-988D-1F4A8E4860EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D5CC95-4A46-486C-988D-1F4A8E4860EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D3CA26-702B-4E76-AC7F-0AF7D6BAFCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D3CA26-702B-4E76-AC7F-0AF7D6BAFCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D3CA26-702B-4E76-AC7F-0AF7D6BAFCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D3CA26-702B-4E76-AC7F-0AF7D6BAFCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
