@@ -62,7 +62,7 @@ namespace PhotoAlbum.PlaceholderPhotos.Tests
                 AlbumId = 1,
                 ThumbnailUrl = "obviouslynotaurl",
                 Title = "Mountain",
-                Url = "www.test.com"
+                Url = "http://www.test.com"
             };
 
             sut.Invoking(x => x.ToPhoto()).Should().Throw<UriFormatException>();
@@ -75,7 +75,7 @@ namespace PhotoAlbum.PlaceholderPhotos.Tests
             {
                 Id = 1,
                 AlbumId = 1,
-                ThumbnailUrl = "www.test.com",
+                ThumbnailUrl = "http://www.test.com",
                 Title = "Mountain",
                 Url = "obviouslynotaurl"
             };
