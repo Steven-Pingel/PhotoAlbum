@@ -22,7 +22,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\PhotoAlbum.PlaceholderPhotos\PhotoAlbum.PlaceholderPhotos.csproj" />
-      <ProjectReference Include="..\PhotoAlbum.PlaceholderPhotos\PhotoAlbum.PlaceholderPhotos.csproj" />
     </ItemGroup>
 
 </Project>
