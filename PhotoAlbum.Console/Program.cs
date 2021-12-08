@@ -46,7 +46,7 @@ namespace PhotoAlbum.Console
             }
             catch(Exception e)
             {
-                AnsiConsole.WriteException(e);
+                AnsiConsole.WriteException(e, ExceptionFormats.ShortenEverything);
             }
             
         }
