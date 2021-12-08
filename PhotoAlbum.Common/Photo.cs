@@ -1,5 +1,3 @@
-using System;
-
 namespace PhotoAlbum.Common
 {
     public class Photo

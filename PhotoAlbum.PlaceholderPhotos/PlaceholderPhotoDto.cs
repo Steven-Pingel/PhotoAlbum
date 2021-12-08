@@ -1,4 +1,3 @@
-using System;
 using PhotoAlbum.Common;
 
 namespace PhotoAlbum.PlaceholderPhotos

@@ -1,9 +1,8 @@
-    using System.Collections.Generic;
-    using PhotoAlbum.Common;
+using PhotoAlbum.Common;
 
-    namespace PhotoAlbum.PlaceholderPhotos
-    {
-        public class PlaceholderAlbumDto
+namespace PhotoAlbum.PlaceholderPhotos
+{
+    public class PlaceholderAlbumDto
         {
             public int Id { get;  set; }
 

@@ -1,5 +1,3 @@
-using System.Threading.Tasks;
-
 namespace PhotoAlbum.Common
 {
     public interface IPhotoService
