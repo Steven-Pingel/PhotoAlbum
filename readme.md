@@ -6,6 +6,7 @@
 2. Run the image in interactive mode
    1. `docker run -it photoalbum`
 3. Follow prompts in console application
+   1. Album ID expects an integer value
 
 ### Further Considerations
 * Could expand error handling / fault tolerance
